@@ -59,6 +59,7 @@ case "$mode" in
 
   debug)
     echo "ac_add_options --enable-debug" >> "$mozconfig"
+    echo "ac_add_options --enable-gczeal" >> "$mozconfig"
     ;;
 
   *)
